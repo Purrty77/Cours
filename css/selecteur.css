@@ -1,0 +1,44 @@
+body {
+  background-color: antiquewhite;
+}
+
+p {
+  background-color: aqua;
+}
+
+/* Selecteurs un peu plus ciblés: 
+ici on prend le premier p (premier enfant) direct de section*/
+
+section > p:first-child {
+  background-color: blueviolet;
+}
+
+section > p:last-child {
+  background-color: black;
+}
+
+/* nth-child() on indique le numéro de l'element à cibler (2=2eme elemnt)*/
+section > p:nth-child(2) {
+  background-color: chartreuse;
+}
+
+/* on cible tout les elements pairs*/
+
+section > p:nth-child(even) {
+  background-color: aqua;
+}
+
+/* Id, Class */
+
+#section1 {
+  background-color: black;
+  height: 100px;
+}
+
+.rouge {
+  color: red ;
+}
+.raccourci{
+    border-radius:50px;
+    width: 50%;
+}

@@ -1,0 +1,25 @@
+body > header > h1 {
+  color: white;
+  border-radius: 50px;
+  background-color: lightgreen;
+  text-align: center;
+  font-size: 60px;
+  margin: 5% auto;
+}
+
+body > main > section > h2 {
+  background-color: lightgreen;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  padding: 1em;
+}
+body > main > section > div {
+  text-align: center;
+}
+
+body {
+  background-image: url(../imgs/background.png);
+}
+
+body>main{color: white; font-family: Arial, Helvetica, sans-serif ;}
