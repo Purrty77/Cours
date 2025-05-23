@@ -1,0 +1,35 @@
+
+table{border-collapse: collapse; }
+td,th{;width: 30px;height: 30px;}
+
+
+
+
+.black{
+  background-color: rgb(0 0 0);
+}
+
+.bleu{
+  background-color: rgb(0 0 255);
+}
+
+.gray{
+  background-color: rgb(128 128 128);
+}  
+
+.jaune{
+  background-color: rgb(255 255 0);
+}   
+
+.marron{
+  background-color: gre;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: center;     /* Vertical */
+  }
+  

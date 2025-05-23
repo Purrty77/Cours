@@ -1,0 +1,21 @@
+
+table{border-collapse: collapse; border-radius: 1px solid black }
+td,th{;width: 30px;height: 30px; border:1px solid black ;}
+
+
+
+
+
+.noir{background-color: #010102;}
+
+.marron{ background-color: #34261D ; }
+
+.marron1{background-color: #423223 ;}
+
+.beige{background-color: #FBAB7F;}
+
+.beige_fonce{background-color: #FE9A66;}
+
+.vert{background-color: #34441F;}
+
+.marron2{background-color: #712C0D;}

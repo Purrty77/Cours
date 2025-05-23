@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <form action="nom">
+      <label> Nom </label>
+      <input type="text" id="nom" placeholder="Entrez votre nom" required/>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Entrez votre email" />
+      <br />
+      <label for="password">Mot de passe</label>
+      <input type="password" id="password" /><br />
+      <label for="checkbox">Quelle destionation choisissez vous?</label>
+
+      <!-- "checked" coché par défault -->
+      <input type="checkbox" id="italie" checked />
+      <label for="italie">Italie</label>
+
+      <input type="checkbox" id="france" />
+      <label for="france">France</label>
+
+      <input type="checkbox" id="allemagne" />
+      <label for="allemagne">Allemagne</label>
+
+      <label for="fruits">Quel est ton fruit préféré?</label>
+      <input type="radio" name="fruit" value="Cerise" id="cerise" />
+      <label for="cerise">Cerise</label>
+
+      <input type="radio" name="fruit" value="Nectarine" id="nectarine" />
+      <label for="nectarine">Nectarine</label>
+
+      <label for="texarea">commentaire</label>
+      <textarea
+        id="textarea"
+        cols="30"
+        rows="7"
+        style="resize: none"
+      ></textarea>
+
+      <label for="age">Quel est votre age?</label>
+      <input type="number" min="0">
+      <input type="submit" value="Envoyer le formulaire">
+
+   
+
+      <input type="reset"value="annuler">
+    </form>
+  </body>
+</html>
