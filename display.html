@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/display.css" />
+  </head>
+  <body>
+    <!-- les différents types de display -->
+    <h1>Les displays</h1>
+    <!-- Display block -->
+    <div class="container">
+      <h2>display: block</h2>
+      <div class="block">
+        Cette div est un élément en <strong>Block</strong>. Il occupe toute la
+        largeur de lécran
+      </div>
+      <div>
+        <h2>Exemple de balises de type 'block' :</h2>
+        <ul>
+          <li>div</li>
+          <li>p</li>
+          <li>h1,h2,h3,h4</li>
+          <li>li</li>
+          <li>main</li>
+          <li>ul</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Display : inline</h2>
+      <div>
+        <p>
+          Les éléments en <strong>inline</strong> ne forcent pas le retour à la
+          ligne, il prend simplement la place dont il a besoin
+        </p>
+        <p>
+          Attention les éléments de type inline ne sont pas commme les types
+          block, leur hauteur et largeur ne sont délimités que par leur contenu
+        </p>
+      </div>
+      <h2>Exemple de balises e type inline</h2>
+      <ul>
+        <li>balise a (liens)</li>
+        <li>img</li>
+        <li>input</li>
+        <li>video</li>
+        <li>span</li>
+        <li>label</li>
+      </ul>
+    </div>
+    <div class="container">
+      <h2>Display : Inline-block</h2>
+      <p>
+        Inline-block: c'est un type inline qui conserve les propriétés du type
+        block, il peut donc être modifié en hauteur et largeur comme n'import
+        quel type block
+      </p>
+    </div>
+    <div class="container">
+      <h2>Display: flex</h2>
+      <div>
+        <p>
+          Flex: Les éléments dans le conteneur s'alignent en ligne et se
+          répartissent l'espace disponible
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Display: Grid</h2>
+      <div>
+        <p>
+          Grid : avec grid, on peut définir une grille avec des lignes et des
+          colonnes
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Display: None</h2>
+      <div><p>None: le display none cache tout simplement l'élément.</p></div>
+    </div>
+
+    <hr />
+    <h2>Quelques exemples:</h2>
+
+    <div><span id="block">Je vais devenir type block</span></div>
+    <!-- Inline -->
+    <div class="inline-div">div1</div>
+    <div class="inline-div">div2</div>
+    <div class="inline-div">div3</div>
+
+    <hr />
+
+    <div class="inline-block-div">div1</div>
+    <div class="inline-block-div">div2</div>
+    <div class="inline-block-div">div3</div>
+    <hr />
+
+    <!-- flex -->
+    <!-- Attention! la proppriété flex doit se mettre SUR l'élément parent pour s'appliquer su ses enfants -->
+    <div id="flex">
+      <p>je vais</p>
+      <p>devenir</p>
+      <p>flex</p>
+    </div>
+  </body>
+</html>
