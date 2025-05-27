@@ -1,0 +1,37 @@
+#intro{color: blue;}
+
+.note{background-color: yellow;}
+
+
+#important{
+    background-color: red;
+}
+
+.cta{background-color: green;
+color: whitesmoke;
+padding: 20px;}
+
+.info{
+    background-color: whitesmoke ;
+}
+
+#test{
+    background-color: brown;
+}
+
+.carte{
+
+     border: 1px solid ;
+     box-shadow: 10px 10px 10px lightskyblue;
+     margin: 15px;
+}
+
+#accueil>h1{
+    color: darkblue;
+}
+
+.actif{
+    background-color: blue
+    ;padding: 20px;
+}
+
